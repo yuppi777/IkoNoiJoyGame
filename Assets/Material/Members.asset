@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86552e407faef2b4fb66acd90a5cc3e2, type: 3}
+  m_Name: Members
+  m_EditorClassIdentifier: 
+  sheet:
+  - Name: Ogihana
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 04a63604c1b146c42abd4578f936c18a, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: OtiaiKirari
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 3bc4b47b73fadc842b70010f901c0b0c, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: KanisawaMoeko
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 17f8c26d38530504bb5b17ce4245f4ac, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: KawaguchiNatune
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 91764728cd8b8dd4e9c6273a7b14b8f4, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: KawanagoNatsumi
+    Hp: 0
+    sprite: {fileID: 21300000, guid: b37d805ec494d6a4cb2fac232aeeffbb, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: SakuraiMomo
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 39dc92c468574534b81503cae25a261d, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: SuganamiMirei
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 1e68d3c44ab306141980b70f92017336, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: SuzukiHItomi
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 415f653988390c04f9d5759058a61d48, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: TanizakiSaya
+    Hp: 0
+    sprite: {fileID: 21300000, guid: bb5744b0a4701bf46917848ce0eee58f, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: TomitaNanaka
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 9f66ea9f101a59742ae6b3f5dc8cfaf2, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: NagataShiori
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 35ab6ec2887b7fa42bf9fdaf3824bd42, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: HondaMiyuki
+    Hp: 0
+    sprite: {fileID: 21300000, guid: bf53771db0cf70c4a8cff985e0abac2f, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 0
+  - Name: OobaHana
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 99d35d3ec52cdac46bac2eee244d409f, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: YamamotoAnna
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 8b29068e464d86446beb9a162e9d79b0, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: OotaniEmili
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 822ef1765907ea945bb2840f4bdcff85, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: OtoshimaRisa
+    Hp: 0
+    sprite: {fileID: 21300000, guid: c1d3b77b75aebf540b1c68ab1a32c54f, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: SaitouKiara
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 0e7fb8775958a5346a68da0d7fb72d72, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: SaitouNagisa
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 522493401fb4fb540a5504f660e0a159, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: SasakiMaika
+    Hp: 0
+    sprite: {fileID: 21300000, guid: ccd2c5f6bf417864d9a1b7df13b76b96, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: TakamatsuHitomi
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 4c9dfb4d9d7ac1241b699f54da87e5cb, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: TakiwakiShouko
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 84df4d9bc23b8f840ac17e874faa4755, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: NogutiIori
+    Hp: 0
+    sprite: {fileID: 21300000, guid: fd33ecac4e0c46c428a384a9d0731565, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: MorohashiSana
+    Hp: 0
+    sprite: {fileID: 21300000, guid: a60c44f32865dd649baff80e59cfb0e4, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: FukuyamaMoeka
+    Hp: 0
+    sprite: {fileID: 21300000, guid: eece272af69ce7449b0d13bcbcc10dba, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: FujisawaRiko
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 2ebb9b81a89e582468026fa3efcb85c9, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: MurayamaYuuka
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 002ec7e39fadff34ba5d9c89cb4aa9b7, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: AidaJyuri
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 9d1a64428913b8b459b4f7394ac9f63b, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: AmanoKonoa
+    Hp: 0
+    sprite: {fileID: 21300000, guid: a369563330f50934dae578e31bde7cd3, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: ItiharaAyumi
+    Hp: 0
+    sprite: {fileID: 21300000, guid: ba5796d5c29fd7347bef3a795294ffb0, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: EsumiRenon
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 5800e5f201896a3428a45a8faea1b889, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: OshidaMitsuki
+    Hp: 0
+    sprite: {fileID: 21300000, guid: a60c44f32865dd649baff80e59cfb0e4, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 1
+  - Name: OonishiAoi
+    Hp: 0
+    sprite: {fileID: 21300000, guid: ca66b99da4d4ce04b8f41fe75c4819f8, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: TakahashiMai
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 1568198c10e7dbd468d2388f50ed3b55, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: YamadaMomoka
+    Hp: 0
+    sprite: {fileID: 21300000, guid: 3d0c6a36cde019f4cbe247cd95683969, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
+  - Name: YamanoArisu
+    Hp: 0
+    sprite: {fileID: 21300000, guid: ddbc4205130beff42917055dd91a1ec6, type: 3}
+    Rarity: 0
+    Post: 0
+    group: 2
