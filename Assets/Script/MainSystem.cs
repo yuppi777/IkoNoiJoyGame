@@ -29,23 +29,60 @@ public class MainSystem : MonoBehaviour
     }
     public void SelectSprite()
     {
-        var query = data.sheet
-           //.Where(x => x.group == MemberMaster.Group.ノイミー)
-           /*.Select(x => x.sprite  )*/
+        //var query = data.sheet
+        //   //.Where(x => x.group == MemberMaster.Group.ノイミー)
+        //   /*.Select(x => x.sprite  )*/
+        //   .OrderBy(i => Guid.NewGuid())//中身シャッフル
+        //   .ToList();//中身シャッフル
+
+        var myCards1 =data.sheet
+           .OrderBy(i => Guid.NewGuid())//中身シャッフル
+           .ToList();//中身シャッフル
+           
+        var myCards2 = data.sheet
+           .OrderBy(i => Guid.NewGuid())//中身シャッフル
+           .ToList();//中身シャッフル
+        var myCards3 = data.sheet
            .OrderBy(i => Guid.NewGuid())//中身シャッフル
            .ToList();//中身シャッフル
 
+        var card1 = myCards1.First();
+        var card2 = myCards2.First();
+        var card3 = myCards3.First();
 
-        //List<MemberMaster.MemberMasterRecord> myCards = new List<MemberMaster.MemberMasterRecord>();
+        randomsprite1 = card1.sprite;
+        randomsprite2 = card2.sprite;
+        randomsprite3 = card3.sprite;
         
-        for (int i = 0; i < 3; i++)
+        //役判定
+        if (card1.group == MemberMaster.Group.ノイミー && card2.group == MemberMaster.Group.ノイミー && card3.group == MemberMaster.Group.ノイミー)//ノイミー役
         {
-            var card = query.First();
-            myCards.Add(card);
-            query.Remove(card);
-            randomsprite1 = card.sprite;
-            
+            Debug.Log("ノイミー役");
         }
+        if (card1.group == MemberMaster.Group.イコラブ && card2.group == MemberMaster.Group.イコラブ && card3.group == MemberMaster.Group.イコラブ)//イコラブ役
+        {
+            Debug.Log("イコラブ役");
+        }
+        if (card1.group == MemberMaster.Group.ニアジョイ && card2.group == MemberMaster.Group.ニアジョイ && card3.group == MemberMaster.Group.ニアジョイ)//ニアジョイ役
+        {
+            Debug.Log("ニアジョイ役");
+        }
+        if (card1.Name == "SuzukiHItomi"&& card3.Name == "TanizakiSaya")//サマーチョコレート役
+        {
+            Debug.Log("サマーチョコレート役");
+        }
+
+
+
+
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    var card = query.First();
+        //    myCards.Add(card);
+        //    query.Remove(card);
+        //    randomsprite1 = card.sprite;
+
+        //}
 
         //query.First();//中身の一番上を取ってくる
         //var a = query[Random.Range(0, query.Count)];
@@ -61,7 +98,7 @@ public class MainSystem : MonoBehaviour
 
         //    if (sprite.group == MemberMaster.Group.ノイミー)
         //    {
-               
+
         //    }
         //    #region やりたい事
         //    //if (randomsprite1 == MemberMaster.Group.ノイミー && randomsprite2 == MemberMaster.Group.ノイミー && randomsprite3 == MemberMaster.Group.ノイミー)
@@ -71,7 +108,7 @@ public class MainSystem : MonoBehaviour
         //    #endregion
         //    break;
         //}
-       
+
 
     }
 
@@ -82,11 +119,11 @@ public class MainSystem : MonoBehaviour
     }
     public void OnClickSlot2()
     {
-        slot2.sprite = randomsprite1;
+        slot2.sprite = randomsprite2;
     }
     public void OnClickSlot3()
     {
-        slot3.sprite = randomsprite1;
+        slot3.sprite = randomsprite3;
         
     }
 }
