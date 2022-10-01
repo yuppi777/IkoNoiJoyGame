@@ -20,6 +20,7 @@ public class MainSystem : MonoBehaviour
     private Sprite randomsprite3;
     List<MemberMaster.MemberMasterRecord> myCards = new List<MemberMaster.MemberMasterRecord>();
     public static float Score;
+    [SerializeField] VideoMaster videoMaster;
 
     void Start()
     {
@@ -58,6 +59,7 @@ public class MainSystem : MonoBehaviour
         if (card1.group == MemberMaster.Group.ノイミー && card2.group == MemberMaster.Group.ノイミー && card3.group == MemberMaster.Group.ノイミー)//ノイミー役
         {
             Debug.Log("ノイミー役");
+            videoMaster.VideoPlayStart();
         }
         if (card1.group == MemberMaster.Group.イコラブ && card2.group == MemberMaster.Group.イコラブ && card3.group == MemberMaster.Group.イコラブ)//イコラブ役
         {
